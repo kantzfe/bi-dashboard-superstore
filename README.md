@@ -1,20 +1,50 @@
-📊 Dashboard Analítico: Desempenho Comercial e Rentabilidade
+# 📊 Dashboard Superstore
+O projeto tem como foco e função transformar e utilizar os dados brutos do dataset Superstore adquiridos no kaggle em uma ferramenta analítica para extrair insights e dar apoio a tomada de decisões.
 
-🎯 O problema de Negócio:
-O objetivo principal deste projeto de Business Intelligence não é apenas mostrar o faturamento histórico, mas sim fornecer uma análise completa, de onde é possivel extrair os insights para a tomada de decisão estratégica da empresa.
+Dataset: [Superstore](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data)
 
-💡 Principais Insights:
-1. A análise trimestral mostra o crescimento da empresa e que não necessariamente o lucro real é diretamente devido ao faturamento.
-2. Relacionando os visuais é possível identificar que os produtos relacionado as categorias Technology e Furniture são os principais responsáveis pelo crescimento gradual da empresa.
-3. O visual scatterplot que demonstra a relação do lucro e faturamento total que há um valor certo de desconto médio que tem geralmente influenciado no lucro da empresa sobre os produtos de determinada categoria.
+-----
 
-⚙️ Ferramentas e Técnicas utilizadas:
-1. Power BI: Desenvolvimento do dashboard e modelagem visual
-2. DAX: Criação de medidas/metricas para os calculos ex:(Ticket Médio, Lucro Total, Crescimento MoM %, etc...)
-3. Distribuição Geográfica para contribuir nos insights.
+## 🎯 Objetivos:
 
-📷 Visuais do Projeto: 
+- Explorar e visualizar a estrutura dos dados.
+- Tratar valores e transformar colunas.
+- Criar uma tabela Data para um Star Schema utilizando a coluna data do dataset.
+- Estruturar e planejar as visualizações para um layout que responde aos problemas de negócio.
+- Criação de Fórmulas DAX para responder cada problema de negócio.
+- Criar hipóteses com insights para exemplificar a função do dashboard.
+
+-----
+
+## 💡 Principais Insights Obtidos no Projeto:
+
+- As categorias Technology e Office Supplies foram as principais fonte de lucros da empresa, dando uma perspectiva de revisar o por que a Furniture deu pouco lucro quando comparamos com as duas.
+- A categoria Furniture está dando prejuízo, quando filtramos suas subcategorias ao longo do tempo há um prejuízo de 20.000 dólares, a revisão de vendas e custo dessa categoria é essencial para o futuro da empresa.
+- Ao analisar os descontos por produtos é visto uma alta significativa nos lucros quando o desconto fica entre 1-15%, a maioria que passa disso começa dar prejuízo.
+
+-----
+
+## ⚙️ Ferramentas e Técnicas utilizadas:
+- Power BI: Desenvolvimento do dashboard e modelagem visual.
+- Modelagem de Dados: Star Schema.
+- DAX: Criação de medidas/métricas para os cálculos ex:(Ticket Médio, Lucro Total, Crescimento MoM %, etc...).
+- Distribuição Geográfica para contribuir nos insights.
+
+-----
+
+## 📷 Visuais do Projeto: 
+
+## Dashboard Pagina Principal
 ![Dashboard Home](imgs/home.png)
+
+## Dashboard Análise Geográfica
 ![Dashboard Map](imgs/map.png)
 
-Muito obrigado pelo seu tempo.
+-----
+
+## 🚀 Conclusão:
+Durante a construção do projeto sempre fiz questionamentos para chegar a visuais que agregassem a uma análise que realmente importasse e funcionasse para criar decisões futuras a fim do crescimento da empresa. Esse projeto reforçou minha ideia de que um analista de dados é muito importante para qualquer tipo de empresa/negócio.
+
+Este projeto está sob a licença [MIT License](https://opensource.org/licenses/MIT)
+
+**Autor:** Felipe Matos
